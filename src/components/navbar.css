@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    height: 180px;
+    width: 100vw;
+    color: #e0f78d;
+    background-color:#1a4621; 
+    align-items: center;
+}
+
+.logo {
+    width: 180px;
+}
+
+.menu{    
+    display: flex;
+    list-style-type: none; 
+    margin: 10px; 
+}
+
+.menu li{       
+    margin: 10px; 
+}
+
+.menu li a{    
+    text-decoration: none;
+    color: #e0f78d;       
+}
+
+
+.badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #479984; /* Color de fondo */
+    color: #e0f78d; /* Color del texto */
+    font-size: 14px;
+    padding: 2px 6px;
+    border-radius: 50%; /* Forma redondeada */
+    transform: translate(50%, -50%);
+  }
+
+  .carrito {
+    position: relative;    
+  }
+
+  
